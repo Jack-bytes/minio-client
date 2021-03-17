@@ -1,4 +1,4 @@
-package com.github.jackbytes.minio;
+package cn.com.lezz.minio;
 
 import io.minio.*;
 import io.minio.errors.*;
@@ -17,7 +17,7 @@ public class FileUploader {
     static {
         CLIENT = MinioClient.builder()
                 .endpoint("http://192.168.87.135:9000")
-                .credentials("jack", "wwh921314")
+                .credentials("***", "***")
                 .build();
     }
 

@@ -1,4 +1,4 @@
-package com.github.jackbytes.minio;
+package cn.com.lezz.minio;
 
 import io.minio.errors.*;
 import org.junit.jupiter.api.Test;
@@ -12,7 +12,7 @@ public class MinioTest {
     @Test
     public void test1() throws IOException, InvalidResponseException, InvalidKeyException, NoSuchAlgorithmException, ServerException, ErrorResponseException, XmlParserException, InsufficientDataException, InternalException {
 
-        FileUploader.uploadFile();
+//        FileUploader.uploadFile();
     }
 
     @Test
