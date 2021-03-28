@@ -1,4 +1,4 @@
-package cn.com.lezz.minio;
+package cn.com.lezz.starter.minio;
 
 import io.minio.*;
 import io.minio.errors.*;
