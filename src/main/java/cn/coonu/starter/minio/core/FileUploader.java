@@ -1,6 +1,7 @@
-package cn.com.lezz.starter.minio;
+package cn.coonu.starter.minio.core;
 
 import io.minio.*;
+import io.minio.MinioClient;
 import io.minio.errors.*;
 import io.minio.messages.Bucket;
 import io.minio.messages.NotificationConfiguration;
@@ -16,8 +17,8 @@ public class FileUploader {
 
     static {
         CLIENT = MinioClient.builder()
-                .endpoint("http://192.168.87.135:9000")
-                .credentials("***", "***")
+                .endpoint("http://play.minio.io")
+                .credentials("Q3AM3UQ867SPQQA43P2F", "zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG")
                 .build();
     }
 
